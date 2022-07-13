@@ -25,15 +25,10 @@ function ehImparListener(event){
     criaElemento(eImparList)
 }
 
-function criaElemento(valor, ehPar){
+function criaElemento(lista){
     const eLi = document.createElement("li")
     eLi.textContent = eValor.textContent
-
-    if(ehPar){
-        eParList.appendChild(eLi)
-    } else {
-        eImparList.appendChild(eLi)
-    }
+    lista.appendChild(eLi)
     sorteiaValor()
 
 }
