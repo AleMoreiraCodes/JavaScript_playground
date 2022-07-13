@@ -5,7 +5,7 @@ const eSpans = document.querySelectorAll("span")
 //const eB = eSpans[1]
 //const eS = eSpans[2]
 
-const eButtons = document.querrySelectorAll("button")
+const eButtons = document.querySelectorAll("button")
 const eButtonsSoma = eButtons[0]
 const eButtonMultiplica = eButtons[1]
 
@@ -14,6 +14,7 @@ eButtonMultiplica.addEventListener("click", multiplicaListener)
 
 function somaListener(event){
     console.log("Sopma Listener!")
+    soma()
 }
 
 function multiplicaListener(event){
